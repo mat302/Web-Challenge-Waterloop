@@ -1,26 +1,19 @@
-import React, {
-	Component
-} from 'react';
+import React, { Component} from 'react';
+import './Sponsors.css'
 
+class Sponsors extends Component {
+	render() {
+		return (
+			<div className = 'goldSponsors'>
+			</div>
 
-class Main extends Component {
-	render()
-	return ( <
-		div className = 'goldSponsors'
+			<div className = 'silverSponsors'>
+			</div>
 
-		<
-		/div>
-
-		<
-		div className = 'silverSponsors'
-
-		<
-		/div>
-
-		<
-		div className = 'bronzeSponsors'
-
-		<
-		/div>
-	)
+			<div className = 'bronzeSponsors'>
+			</div>
+		);
+	}
 }
+
+export default Sponsors

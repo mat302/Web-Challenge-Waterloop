@@ -17,7 +17,7 @@ class Navbar extends Component {
               <li><Link to='/' activeClassName="selected">Home</Link></li>
               <li><Link to='/' activeClassName="selected">Flock</Link></li>
               <li><Link to='/' activeClassName="selected">Team</Link></li>
-              <li><Link to='/' activeClassName="selected">Sponsors</Link></li>
+              <li><Link to='/sponsors' activeClassName="selected">Sponsors</Link></li>
               <li><Link to='/' activeClassName="selected">Media</Link></li>
             </li>
             <li className='navSection contact'>
