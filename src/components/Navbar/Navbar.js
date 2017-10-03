@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
-
 import './Navbar.css';
 
 class Navbar extends Component {
@@ -12,7 +10,7 @@ class Navbar extends Component {
           <ul className='navRoot'>
             <li className='navSection logo'>
               <Link to = '/'>
-                Waterloop
+
               </Link>
             </li>
             <li className='navSection primary'>

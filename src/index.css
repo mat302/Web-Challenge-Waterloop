@@ -8,6 +8,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
   text-rendering: optimizeLegibility;
+  color: #222
 }
 
 html, body {
