@@ -13,20 +13,11 @@
   transform: skewY(-6deg);
   transform-origin: top left;
   background-image:
-    linear-gradient(rgba(38,50,56,0.5), rgba(38,50,56, 0.5)),
+    linear-gradient(to right, rgba(7,101,133,0.8), rgba(255,255,255,0.7)),
     url("http://cdn.betakit.com/wp-content/uploads/2016/03/CompetitionPod_image.jpg");
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -999;
-}
-
-h1 {
-  position: relative;
-  margin-top: 100px;
-  color: #fff;
-  padding: 20px 10px;
-  font-size: 500%;
-  font-weight: 300;
 }

@@ -5,17 +5,9 @@ import './Header.css';
 class Header extends Component {
   render() {
     return (
-      <header>
-        <div id='header'>
-          <div className='header-bg'></div>
-          <Button style={{color: '#fff', marginTop:'200px'}}>
-          	About
-          </Button>
-          <Button style={{color: '#fff'}}>
-          	Team
-          </Button>
-        </div>
-      </header>
+      <div id='header'>
+        <div className='header-bg'></div>
+      </div>
     );
   }
 }
