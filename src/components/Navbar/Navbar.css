@@ -1,0 +1,23 @@
+#main-nav {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  right: 0;
+  z-index: 500;
+  height: 50px;
+  perspective: 2000px;
+}
+
+#main-nav a:link,
+#main-nav a:active {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+
+#main-nav a:hover {
+  color: hsla(0, 0%, 100%, 0.5);
+  text-decoration: none;
+  padding: 10px 10px;
+  transition: all 0.2s;
+}

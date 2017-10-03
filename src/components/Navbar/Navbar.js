@@ -6,11 +6,11 @@ class Navbar extends Component {
   render() {
     return (
       <div id='main-nav'>
-        <span>Home</span>
-        <span>Flock</span>
-        <span>Team</span>
-        <span>Sponsors</span>
-        <span>Media</span>
+        <a href='/home'>Home</a>
+        <a href='/flock'>Flock</a>
+        <a href='/team'>Team</a>
+        <a href='/sponsors'>Sponsors</a>
+        <a href='/media'>Media</a>
       </div>
     );
   }
