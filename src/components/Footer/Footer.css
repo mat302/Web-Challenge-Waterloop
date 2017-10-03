@@ -1,0 +1,23 @@
+#footer-nav {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+#footer-nav a {
+  padding: 10px;
+}
+
+#footer-nav a:link,
+#footer-nav a:active {
+  color: #8898aa;
+  text-decoration: none;
+}
+
+#footer-nav a:hover {
+  color: #32325d;
+  transition: all 0.2s;
+}
