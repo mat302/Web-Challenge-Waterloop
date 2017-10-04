@@ -3,6 +3,7 @@ import './Sponsors.css';
 import Paper from 'material-ui/Paper';
 import Spotify from './assets/sponsor_spotify.png';
 import SpaceX from './assets/sponsor_spacex.png';
+import SponsorshipPackage from './assets/sponsorship_package.pdf';
 
 class Sponsors extends Component {
 	render() {
@@ -61,10 +62,21 @@ class Sponsors extends Component {
 						</div>
 
 						<div className='sponsorMessage'>
-							<h3>Why sponsor us? </h3>
-							<h3>We are a dedicated team of students working towards one common goal: <br/>
-								 to improve the future of transportation in Canada.
-							</h3>
+							<Paper className='PaperStyle sponsorMessagePaper' zDepth={1}>
+								<h3>Why sponsor us? </h3>
+								<p>We are a dedicated team of students working towards one common goal:
+									 to improve the future of transportation in Canada. Made up of 100 students
+									 from nearly all faculties, we are a diverse group of young innovaters hoping to make
+									 Hyperloop a reality. By being a sponsor, you are helping us achieve our dream of
+									 better transportation for all.
+									 <br></br>
+									 <br></br>
+									 Send us an email at <a href='mailto:sponsorship@teamwaterloop.ca'>sponsorship@teamwaterloop.ca</a> to learn how you can get involved!
+									 <br></br>
+									 <br></br>
+									 Alternatively, check out our sponsorship package!
+								</p>
+							</Paper>
 						</div>
 					</div>
 				</div>

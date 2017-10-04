@@ -7,7 +7,7 @@
   position: relative;
   font-weight: 400;
   font-size: 175%;
-  margin-top: 20%;
+  margin-top: 50%;
   color: #fff;
   font-weight: 400;
   vertical-align: center;
@@ -27,12 +27,13 @@
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
-  height: 500px;
+  height: 700px;
 }
 
 .sponsorBody {
   width: 100%;
-  margin-top: 12%;
+  margin-top: 8%;
+  padding-top: 0px;
 }
 
 .sponsors {
@@ -66,21 +67,26 @@
 .goldSponsors,
 .silverSponsors,
 .bronzeSponsors {
+  position: relative;
   text-align: center;
+  margin: auto;
 }
 
-.goldSponsors p {
+.goldSponsors h3 {
+  font-size: 36px;
   color: #FFD700;
   text-align: center;
 
 }
 
-.silverSponsors p {
+.silverSponsors h3 {
+  font-size: 36px;
   color: #C0C0C0;
   text-align: center;
 }
 
-.bronzeSponsors p {
+.bronzeSponsors h3 {
+  font-size: 36px;
   color: #CD7F32;
   text-align: center;
 }
@@ -88,8 +94,32 @@
 .sponsorMessage {
   margin: auto;
   max-width: 1040px;
+
+}
+
+.sponsorMessagePaper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  max-width: 1040px;
+  padding: 30px;
+}
+
+.sponsorMessagePaper h3 {
+  margin-top: 0;
+  font-weight: 500;
 }
 
 h3 {
   font-weight: 500;
+}
+
+p {
+  font-weight: 300;
+}
+
+.raisedButton {
+  margin: 12px;
+  color: #FFD54F;
+
 }
