@@ -1,0 +1,28 @@
+.container {
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.Paper {
+  height: 200px;
+  width: 200px;
+  margin: 30px;
+  display: block;
+}
+
+.gold {
+  display: inline-block;
+  justify-content: center;
+}
+
+.silver {
+  display: inline-block;
+}
+
+.bronze {
+  display: inline-block;
+}
