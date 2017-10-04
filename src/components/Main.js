@@ -2,6 +2,7 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Home from './Home/Home.js'
 import Sponsors from './Sponsors/Sponsors.js'
+import Media from './Media/Media.js'
 import Team from './Team/Team.js'
 import { AnimatedSwitch } from 'react-router-transition';
 
@@ -13,6 +14,8 @@ const Main = () => (
       <Route path='/team' component={Team}/>
       <Route path='/sponsors' component={Sponsors}/>
       {/*}<Route path='/media' component={Media}/>*/}
+      <Route path='/media' component={Media}/>
+      {}
     </Switch>
   </main>
 )
