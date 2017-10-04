@@ -1,0 +1,144 @@
+{
+    "leads": [
+		{
+			"position": "Technical Lead",
+			"numMembers": 38,
+			"src": "clive.jpg",
+			"leadName": "Clive Chan"
+		},
+		{
+			"position": "Mechanical Lead",
+			"numMembers": 0,
+			"src": "jason.jpg",
+			"leadName": "Jason Pan"
+		}
+	],
+
+	"teams": [
+		{
+			"name": "team1",
+			"members": [
+				"Alpha",
+				"Beta",
+				"Gamma"
+			]
+		},
+		{
+			"name": "team2",
+			"members": [
+				"Alpha",
+				"Beta",
+                "Gamma",
+                "Theta"
+			]
+		},
+		{
+			"name": "team3",
+			"members": [
+				"Alpha",
+				"Beta",
+                "Gamma",
+                "Theta",
+                "Delta"
+			]
+		},
+		{
+			"name": "team4",
+			"members": [
+				"Alpha",
+				"Beta",
+				"Gamma"
+			]
+		},
+		{
+			"name": "team5",
+			"members": [
+				"Alpha",
+				"Beta",
+				"Gamma"
+			]
+		},
+		{
+			"name": "team6",
+			"members": [
+				"Alpha",
+				"Gamma"
+			]
+		},
+		{
+			"name": "team7",
+			"members": [
+				"Alpha",
+				"Gamma"
+			]
+		},
+				{
+			"name": "team8",
+			"members": [
+				"Alpha",
+                "Gamma",
+                "Delta"
+			]
+		},		{
+			"name": "team9",
+			"members": [
+				"Alpha",
+				"Gamma"
+			]
+		},
+		{
+			"name": "team10",
+			"members": [
+				"Alpha",
+				"Gamma"
+			]
+		},
+				{
+			"name": "team11",
+			"members": [
+				"Alpha",
+                "Gamma",
+                "Epsilon",
+                "Delta"
+			]
+        },
+        				{
+			"name": "team12",
+			"members": [
+				"Alpha",
+                "Gamma",
+                "Epsilon",
+                "Delta"
+			]
+        },
+        				{
+			"name": "team13",
+			"members": [
+				"Alpha",
+                "Gamma",
+                "Epsilon",
+                "Delta"
+			]
+        },
+        				{
+			"name": "team14",
+			"members": [
+				"Alpha",
+                "Gamma",
+                "Epsilon",
+                "Delta"
+			]
+        },
+                				{
+			"name": "team15",
+			"members": [
+				"Alpha",
+                "Gamma",
+                "Epsilon",
+                "Delta"
+			]
+		}
+
+	]
+
+}

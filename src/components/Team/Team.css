@@ -1,17 +1,13 @@
-.teamThanks {
-  max-width: 1040px;
-  margin: auto;
-}
-
 .teamHeader h2 {
   position: relative;
   font-weight: 400;
   font-size: 175%;
-  margin-top: 20%;
+  margin-top: 25%;
   color: #fff;
-  font-weight: 400;
   vertical-align: center;
-  font-size: 175%;
+}.teamText {
+  max-width: 1040px;
+  margin: auto;
 }
 
 .team-bg {
@@ -31,63 +27,127 @@
 .teamBody {
   width: 100%;
   margin-top: 12%;
-  z-index: 10;
+  padding: 5%;
+  color: #111111;
 }
 
-.teams {
-  max-width: 1040px;
-  margin: 0 auto;
+.memberName {
+  opacity: 0.5;
+}
+
+.leadName {
+  opacity: 0.8;
+}
+
+.noBullets {
+    list-style-type: none;
+    padding: 0;
+}
+
+.teamBlock {
+  display: inline-block;
+  width: 28%;
+  margin: 2%;
+  font-size: 1.5vh;
+  margin-bottom: 5%;
+  margin-top: 3%;
+  vertical-align: top;
+}
+
+.leadBlock {
+  display: inline-block;
+  width: 20%;
+  margin: 10%;
+  font-size: 1.5vh;
+  margin-bottom: 5%;
+  margin-top: 3%;
+  vertical-align: top;
+}
+
+
+.teamRow {
+  width: 100%;
+}
+
+.leadRow {
+  width: 100%;
+  align-items: center;
+}
+
+.captainRow {
+  width: 100%;
+  text-align: center;
+}
+
+.leadColumn {
+  width: 100%;
+  margin: 0px auto 0px auto;
+  text-align: center;
+}
+
+.teamColumn {
+  display: inline-block;
   width: 50%;
-  z-index: 10;
-}
-
-
-.Paperteam {
-  position: relative;
-  bottom: 50px;
-  height: 250px;
-  width: 1040px;
-  margin: 30px;
-  padding: 30px;
-  display:flex;
-  text-align: left;
-  color: #444444;
-  z-index: 10;
-}
-
-.teamNumber
-{
-  height: 30px;
-  width: 300px;
-  margin: 30px;
-  padding: 30px;
-  display:flex;
-  text-align: left;
-  color: #444444;
-  z-index: 10;
+  margin: 0px auto 0px auto;
+  vertical-align: top;
   text-align: center;
 }
 
-h3 {
-  text-align: center;
+
+.blockHeading {
+  padding: 5%;
+  text-align: left;
+}
+
+.blockText {
+  margin-left: 5%;
+  text-align: left;
+}
+
+.leadImage {
+  width: 100%;
+  height: auto;
+}
+
+.rightAlign {
+  float: right;
+}
+
+li {
+  margin: 2px;
+}
+
+
+.teamPaper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  max-width: 1040px;
+  padding: 30px;
+  position: absolute;
+  top: 40%;
+  width: 50%;
+  left: 25%;
+}
+
+.teamPaper h2 {
+  margin-top: 0;
   font-weight: 500;
 }
 
-h4
-{
-  text-align: center;
-  font-weight: 500;
-  color: #DDDDDD;
-  position: relative;
-  bottom: 25px;
+.teamPaper p {
+  font-weight: 300;
 }
 
-.lhs
-{
-  text-align: left;
+.verticalRuler {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  height: 70vh;
+  width: 2px;
+  background: #111111;
+  opacity: 0.2;
+  border-radius: 100%;
+  margin-top: 6%;
 }
 
-.rhs
-{
-  text-align: right;
-}
