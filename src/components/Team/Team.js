@@ -4,7 +4,7 @@ import Paper from 'material-ui/Paper';
 import Spotify from './assets/sponsor_spotify.png';
 import SpaceX from './assets/sponsor_spacex.png';
 
-class Sponsors extends Component {
+class Team extends Component {
 	render() {
 		return (
 			<div className='all'>
@@ -29,6 +29,18 @@ class Sponsors extends Component {
 						<h4>
 							Faculty Advisor
 						</h4>
+						<div className='lhs'>
+							<Paper className ='teamNumber' circle={true} zDepth={1} style={{overflow:'hidden'}}>
+								Technical team
+							</Paper>
+							<img src='assets/clive.jpg'>
+
+							</img>
+							ggg ggggggg ggggggggf fffffffff ffffffffg gggggggg
+						</div>
+						<div className='rhs'>
+							hhhhhh j jh jh jh hj hj j j j
+						</div>
 					</div><br />
 				</div>
 			</div>
@@ -36,4 +48,4 @@ class Sponsors extends Component {
 	}
 }
 
-export default Sponsors;
+export default Team
