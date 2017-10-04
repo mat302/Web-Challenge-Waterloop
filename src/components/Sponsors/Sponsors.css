@@ -62,18 +62,18 @@
   text-align: center;
 }
 
-.goldSponsors p {
+.goldSponsors h3 {
   color: #FFD700;
   text-align: center;
 
 }
 
-.silverSponsors p {
+.silverSponsors h3 {
   color: #C0C0C0;
   text-align: center;
 }
 
-.bronzeSponsors p {
+.bronzeSponsors h3 {
   color: #CD7F32;
   text-align: center;
 }

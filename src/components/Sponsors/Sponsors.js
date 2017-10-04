@@ -19,7 +19,7 @@ class Sponsors extends Component {
 				<div className='sponsorBody'>
 					<div className='sponsors'>
 						<div className ='goldSponsors'>
-							<p> Gold Sponsors </p>
+							<h3> Gold Sponsors </h3>
 								<Paper className ='gold Paper' circle={true} zDepth={1} style={{overflow:'hidden'}}>
 									<a href='https://www.spotify.com/ca-en/'>
 										<img src={Spotify} alt='Spotify' />
@@ -33,7 +33,7 @@ class Sponsors extends Component {
 						</div>
 
 						<div className='silverSponsors'>
-							<p> Silver Sponsors </p>
+							<h3> Silver Sponsors </h3>
 							<Paper className = 'silver Paper' circle={true} zDepth={1} style={{overflow:'hidden'}}>
 								<a href='http://www.spacex.com/'>
 									<img src={SpaceX} alt='SpaceX' />
@@ -47,7 +47,7 @@ class Sponsors extends Component {
 						</div>
 
 						<div className='bronzeSponsors'>
-							<p> Bronze Sponsors </p>
+							<h3> Bronze Sponsors </h3>
 							<Paper className='bronze Paper' circle={true} zDepth={1} style={{overflow:'hidden'}}>
 								<a href='http://www.spacex.com/'>
 									<img src={SpaceX} alt='SpaceX' />
@@ -62,9 +62,9 @@ class Sponsors extends Component {
 
 						<div className='sponsorMessage'>
 							<h3>Why sponsor us? </h3>
-							<p>We are a dedicated team of students working towards one common goal: <br/>
+							<h3>We are a dedicated team of students working towards one common goal: <br/>
 								 to improve the future of transportation in Canada.
-							</p>
+							</h3>
 						</div>
 					</div>
 				</div>
