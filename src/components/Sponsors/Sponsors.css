@@ -3,7 +3,7 @@
 }
 
 .sponsorHeader {
-  height: 500px;
+  height: 700px;
   width: 100%;
   background-image:
   linear-gradient(to bottom, rgba(17,17,17,0.95), rgba(255,213,79,0.5)),
@@ -43,15 +43,18 @@
 }
 .goldSponsors p {
   color: #FFD700;
+  text-align: center;
 
 }
 
 .silverSponsors p {
   color: #C0C0C0;
+  text-align: center;
 }
 
 .bronzeSponsors p {
   color: #CD7F32;
+  text-align: center;
 }
 
 .background {
