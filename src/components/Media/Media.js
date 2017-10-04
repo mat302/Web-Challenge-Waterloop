@@ -1,22 +1,20 @@
 import React, { Component} from 'react';
 import './Media.css';
 import Paper from 'material-ui/Paper';
-import Spotify from './assets/sponsor_spotify.png';
-import SpaceX from './assets/sponsor_spacex.png';
 
-class Sponsors extends Component {
+class Media extends Component {
 	render() {
 		return (
 			<div className='all'>
-				<div className='sponsorHeader'>
-					<div className='sponsor-bg'></div>
-					<div className='sponsorThanks'>
+				<div className='mediaHeader'>
+					<div className='media-bg'></div>
+					<div className='mediaThanks'>
 						<h2>Media<br/>
 						</h2>
 					</div>
 				</div>
-				<div className='sponsorBody'>
-					<div className='sponsors'>
+				<div className='mediaBody'>
+					<div className='medias'>
 					</div>
 				</div>
 			</div>
@@ -24,4 +22,4 @@ class Sponsors extends Component {
 	}
 }
 
-export default Sponsors;
+export default Media;

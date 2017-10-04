@@ -1,9 +1,9 @@
-.sponsorThanks {
+.storeThanks {
   max-width: 1040px;
   margin: auto;
 }
 
-.sponsorHeader h2 {
+.storeHeader h2 {
   position: relative;
   font-weight: 400;
   font-size: 175%;
@@ -14,7 +14,7 @@
   font-size: 175%;
 }
 
-.sponsor-bg {
+.store-bg {
   position: absolute;
   top: 0;
   right: 0;
@@ -28,19 +28,19 @@
   height: 500px;
 }
 
-.sponsorBody {
+.storeBody {
   width: 100%;
   margin-top: 12%;
 }
 
-.sponsors {
+.stores {
   max-width: 1040px;
   margin: 0 auto;
   width: 50%;
 }
 
 
-.Paper {
+.Paperstore {
   height: 200px;
   width: 200px;
   margin: 30px;
@@ -48,42 +48,7 @@
   text-align: center;
 }
 
-.gold {
-  display: inline-block;
-  justify-content: center;
-}
-
-.silver {
-  display: inline-block;
-}
-
-.bronze {
-  display: inline-block;
-}
-
-.goldSponsors,
-.silverSponsors,
-.bronzeSponsors {
-  text-align: center;
-}
-
-.goldSponsors p {
-  color: #FFD700;
-  text-align: center;
-
-}
-
-.silverSponsors p {
-  color: #C0C0C0;
-  text-align: center;
-}
-
-.bronzeSponsors p {
-  color: #CD7F32;
-  text-align: center;
-}
-
-.sponsorMessage {
+.storeMessage {
   margin: auto;
   max-width: 1040px;
 }

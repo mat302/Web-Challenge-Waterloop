@@ -1,9 +1,9 @@
-.sponsorThanks {
+.teamThanks {
   max-width: 1040px;
   margin: auto;
 }
 
-.sponsorHeader h2 {
+.teamHeader h2 {
   position: relative;
   font-weight: 400;
   font-size: 175%;
@@ -14,7 +14,7 @@
   font-size: 175%;
 }
 
-.sponsor-bg {
+.team-bg {
   position: absolute;
   top: 0;
   right: 0;
@@ -28,13 +28,13 @@
   height: 500px;
 }
 
-.sponsorBody {
+.teamBody {
   width: 100%;
   margin-top: 12%;
   z-index: 10;
 }
 
-.sponsors {
+.teams {
   max-width: 1040px;
   margin: 0 auto;
   width: 50%;
@@ -42,7 +42,7 @@
 }
 
 
-.Paper {
+.Paperteam {
   position: relative;
   bottom: 50px;
   height: 250px;
