@@ -10,8 +10,3 @@ body {
   text-rendering: optimizeLegibility;
   color: #222
 }
-
-html, body {
-  height: 100%;
-  width: 100%;
-}
