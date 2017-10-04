@@ -7,12 +7,14 @@ import SpaceX from './assets/sponsor_spacex.png';
 class Sponsors extends Component {
 	render() {
 		return (
-			<div>
+			<div className='all'>
 				<div className='sponsorHeader'>
 					<div className='sponsor-bg'></div>
-					<h2>Thank you,<br/>
-							from the Waterloop team.
-					</h2>
+					<div className='sponsorThanks'>
+						<h2>Thank you,<br/>
+								from the Waterloop team.
+						</h2>
+					</div>
 				</div>
 				<div className='sponsorBody'>
 					<div className='sponsors'>
