@@ -1,6 +1,9 @@
 import React, { Component} from 'react';
 import './Sponsors.css';
 import Paper from 'material-ui/Paper';
+import Spotify from './assets/sponsor_spotify.png';
+import SpaceX from './assets/sponsor_spacex.png';
+
 
 
 
@@ -8,55 +11,63 @@ import Paper from 'material-ui/Paper';
 class Sponsors extends Component {
 	render() {
 		return (
+
 			<div className='container'>
 
-			<div className='background'>
+			<div className='sponsorHeader'></div>
 
-			</div>
-			<div className ='goldSponsors'>
-				<p> Gold Sponsors </p>
-					<Paper className ='gold Paper' circle={true} zDepth={4}>
-						<a href='https://www.spotify.com/ca-en/'>
-							<img src={'assets/sponsor_spotify.png'} alt='Spotify' />
-						</a>
-					</Paper>
+			<div className='sponsors'>
+				<div className ='goldSponsors'>
+					<p> Gold Sponsors </p>
+						<Paper className ='gold Paper' circle={true} zDepth={1} style={{overflow:'hidden'}}>
+							<a href='https://www.spotify.com/ca-en/'>
+								<img src={Spotify} alt='Spotify' />
+							</a>
+						</Paper>
 
-					<Paper className = 'gold Paper' circle={true} zDepth={4}>
+						<Paper className = 'gold Paper' circle={true} zDepth={1} style={{overflow:'hidden'}}>
+							<a href='http://www.spacex.com/'>
+								<img src={SpaceX} alt='SpaceX' />
+							</a>
+						</Paper>
+
+				</div>
+
+				<div className='silverSponsors'>
+					<p> Silver Sponsors </p>
+					<Paper className = 'silver Paper' circle={true} zDepth={1} style={{overflow:'hidden'}}>
 						<a href='http://www.spacex.com/'>
-							<img src={'assets/sponsor_spacex.png'} alt='SpaceX' />
+							<img src={SpaceX} alt='SpaceX' />
 						</a>
 					</Paper>
 
-			</div>
+					<Paper className='silver Paper' circle={true}  zDepth={1} style={{overflow:'hidden'}}>
+						<a href='http://www.spacex.com/'>
+							<img src={SpaceX} alt='SpaceX' />
+						</a>
+					</Paper>
+				</div>
 
-			<div className='silverSponsors'>
-				<p> Silver Sponsors </p>
-				<Paper className = 'silver Paper' circle={true} zDepth={4}>
-					<a href='http://www.facebook.com/'>
-						<img src={'assets/icon_facebook.svg'} alt='Facebook'/>
-					</a>
-				</Paper>
+				<div className='bronzeSponsors'>
+					<p> Bronze Sponsors </p>
+					<Paper className='bronze Paper' circle={true} zDepth={1} style={{overflow:'hidden'}}>
+						<a href='http://www.spacex.com/'>
+							<img src={SpaceX} alt='SpaceX' />
+						</a>
+					</Paper>
 
-				<Paper className='silver Paper' circle={true}  zDepth={4}>
-					<a href='http://www.twitter.com/'>
-						<img src={'assets/icon_twitter.svg'} alt='Twitter' />
-					</a>
-				</Paper>
-			</div>
+					<Paper className='bronze Paper' circle={true} zDepth={1} style={{overflow:'hidden'}}>
+						<a href='http://www.spacex.com/'>
+							<img src={SpaceX} alt='SpaceX' />
+						</a>
+					</Paper>
+				</div>
 
-			<div className='bronzeSponsors'>
-				<p> Bronze Sponsors </p>
-				<Paper className='bronze Paper' circle={true} zDepth={4}>
-					<a href='http://www.instagram.com/'>
-						<img src={'assets/icon_instagram.svg'} alt='Instagram' />
-					</a>
-				</Paper>
 
-				<Paper className='bronze Paper' circle={true} zDepth={4}>
-					<a href='http://www.linkedin.com/'>
-						<img src={'assets/icon_linkedin.svg'} alt='LinkedIn' />
-					</a>
-				</Paper>
+				<div className='sponsorMessage'>
+					<h3>Why sponsor us? </h3>
+				</div>
+
 			</div>
 
 			</div>
