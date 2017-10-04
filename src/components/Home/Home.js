@@ -17,7 +17,7 @@ class Home extends Component {
           <Paper className='PaperStyle homePaper' zDepth={1}>
             <h2>What is Hyperloop?</h2>
             <p>The Hyperloop is a proposed supersonic train line stretching across
-            the country in underground airless tubes. We believe that it's the
+            the country in underground airless tubes. We believe that it&#39;s the
             future of transportation, and an example of how sound engineering can
             overcome any problem.</p>
           </Paper>

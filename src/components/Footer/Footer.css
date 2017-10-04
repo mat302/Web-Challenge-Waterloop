@@ -28,3 +28,7 @@
   fill: #32325d;
   transition: all 0.2s;
 }
+
+p {
+  font-weight: 300;
+}
