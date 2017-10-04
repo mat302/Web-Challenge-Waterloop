@@ -25,6 +25,8 @@
     url('assets/teamphoto.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
   height: 500px;
 }
 
