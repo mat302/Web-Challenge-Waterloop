@@ -8,6 +8,12 @@ class Main extends Component {
       <div className='home'>
         <div id='header'>
           <div className='header-bg'></div>
+          <div className='headerText'>
+            <h2>The future of transportation is approaching,<br/>
+                and it's made in Canada.
+            </h2>
+
+          </div>
         </div>
 
       </div>

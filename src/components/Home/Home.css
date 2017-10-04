@@ -9,8 +9,8 @@
   right: 0;
   left: 0;
   width: 100%;
-  height: 50%;
-  transform: skewY(-6deg);
+  height: 65%;
+  transform: skewY(-9deg);
   transform-origin: top left;
   background-image:
     linear-gradient(to bottom, rgba(17,17,17,0.95), rgba(255,213,79,0.5)),
@@ -20,4 +20,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -999;
+}
+
+.headerText {
+  margin: auto;
+  max-width: 1040px;
+  text-align: left;
+}
+
+h2 {
+  margin-top: 15%;
+  color: #fff;
+  font-weight: 300;
+  vertical-align: center;
+  font-size: 175%;
 }
