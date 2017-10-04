@@ -1,0 +1,70 @@
+.sponsorThanks {
+  max-width: 1040px;
+  margin: auto;
+}
+
+.sponsorHeader h2 {
+  position: relative;
+  font-weight: 400;
+  font-size: 175%;
+  margin-top: 20%;
+  color: #fff;
+  font-weight: 400;
+  vertical-align: center;
+  font-size: 175%;
+}
+
+.sponsor-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  background-image:
+    linear-gradient(to bottom, rgba(17,17,17,0.95), rgba(255,213,79,0.4)),
+    url('assets/teamphoto.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.sponsorBody {
+  width: 100%;
+  margin-top: 12%;
+  z-index: 10;
+}
+
+.sponsors {
+  max-width: 1040px;
+  margin: 0 auto;
+  width: 50%;
+  z-index: 10;
+}
+
+
+.Paper {
+  position: relative;
+  bottom: 50px;
+  height: 250px;
+  width: 1040px;
+  margin: 30px;
+  padding: 30px;
+  display:flex;
+  text-align: left;
+  color: #444444;
+  z-index: 10;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 500;
+}
+
+h4
+{
+  text-align: center;
+  font-weight: 500;
+  color: #DDDDDD;
+  position: relative;
+  bottom: 25px;
+}

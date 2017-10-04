@@ -30,9 +30,10 @@ class Navbar extends Component {
             <li className='navSection primary'>
               <li><Link to='/' activeClassName="selected">Home</Link></li>
               <li><Link to='/' activeClassName="selected">Flock</Link></li>
-              <li><Link to='/' activeClassName="selected">Team</Link></li>
+              <li><Link to='/team' activeClassName="selected">Team</Link></li>
               <li><Link to='/sponsors' activeClassName="selected">Sponsors</Link></li>
-              <li><Link to='/' activeClassName="selected">Media</Link></li>
+              <li><Link to='/media' activeClassName="selected">Media</Link></li>
+              <li><Link to='/store' activeClassName="selected">Store</Link></li>
             </li>
             <li className='navSection contact'>
               <li><Link to='/' activeClassName="selected">Contact</Link></li>
