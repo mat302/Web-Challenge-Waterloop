@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import Header from './Header/Header.js';
-import About from './About/About.js';
+
+import './Home.css';
 
 class Main extends Component {
   render() {
     return (
       <div className='home'>
-        <Header />
-        <About />
+        <div id='header'>
+          <div className='header-bg'></div>
+        </div>
+
       </div>
     );
   }

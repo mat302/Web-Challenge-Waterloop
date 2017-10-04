@@ -22,6 +22,14 @@
   position: absolute;
   top: 0;
   left: 0;
+  height: 20px;
+  padding-top: 5px;
+  fill: #fff;
+}
+
+svg:hover {
+  fill: hsla(0, 0%, 100%, 0.5);
+  transition: all 0.15s;
 }
 
 .primary {
@@ -36,6 +44,10 @@
   right: 0;
 }
 
+.selected {
+  color: #ddd;
+}
+
 #main-nav a {
   outline: 0;
   color: #fff;
@@ -45,9 +57,9 @@
 
 #main-nav a:hover,
 #main-nav a.selected {
-  color: hsla(0, 0%, 100%, 0.5);
+  color: hsla(0, 0%, 100%, 0.7);
   text-decoration: none;
-  transition: all 0.2s;
+  transition: all 0.15s;
 }
 
 #main-nav ul,
