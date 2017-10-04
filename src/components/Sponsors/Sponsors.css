@@ -5,7 +5,12 @@
 
 .sponsorHeader h2 {
   position: relative;
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 175%;
+  margin-top: 20%;
+  color: #fff;
+  font-weight: 400;
+  vertical-align: center;
   font-size: 175%;
 }
 
@@ -20,12 +25,12 @@
     url('assets/teamphoto.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50%;
+  height: 500px;
 }
 
 .sponsorBody {
   width: 100%;
-  margin-top: 15%;
+  margin-top: 12%;
 }
 
 .sponsors {
@@ -62,18 +67,18 @@
   text-align: center;
 }
 
-.goldSponsors h3 {
+.goldSponsors p {
   color: #FFD700;
   text-align: center;
 
 }
 
-.silverSponsors h3 {
+.silverSponsors p {
   color: #C0C0C0;
   text-align: center;
 }
 
-.bronzeSponsors h3 {
+.bronzeSponsors p {
   color: #CD7F32;
   text-align: center;
 }

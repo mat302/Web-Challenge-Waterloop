@@ -14,9 +14,20 @@ class Home extends Component {
           </div>
         </div>
         <div id='homeText'>
-        <Paper className='PaperStyle' zDepth={1}>
-          
-        </Paper>
+          <Paper className='PaperStyle homePaper' zDepth={1}>
+            <h2>What is Hyperloop?</h2>
+            <p>The Hyperloop is a proposed supersonic train line stretching across
+            the country in underground airless tubes. We believe that it's the
+            future of transportation, and an example of how sound engineering can
+            overcome any problem.</p>
+          </Paper>
+          <Paper className='PaperStyle homePaper' zDepth={1}>
+            <h2>What is Waterloop?</h2>
+            <p>We represent Canada in the SpaceX Hyperloop Competition, a university
+            competition to build the fastest and safest half-scale Hyperloop
+            prototype. In the future, we hope to build one of the first
+            full-scale passenger Hyperloops in the world, right here in Canada.</p>
+          </Paper>
         </div>
       </div>
     );
