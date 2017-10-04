@@ -57,3 +57,36 @@
 .homePaper p {
   font-weight: 300;
 }
+
+h3
+{
+  float: left;
+  font-size:30px;
+}
+
+
+h4
+{
+  margin: 8%;
+  margin-left: 20%;
+  font-size: 30px;
+}
+
+.blog
+{
+  width: 30%;
+  margin: 1%;
+  display: inline-block;
+  text-align: left;
+}
+
+.blog>img
+{
+  width: 100%;
+}
+
+.blogs
+{
+  margin-top: 10%;
+  text-align: center;
+}
