@@ -14,6 +14,8 @@
   font-size: 175%;
 }
 
+
+
 .sponsor-bg {
   position: absolute;
   top: 0;
@@ -27,12 +29,12 @@
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
-  height: 700px;
+  height: 900px;
 }
 
 .sponsorBody {
   width: 100%;
-  margin-top: 8%;
+  margin-top: 18%;
   padding-top: 0px;
 }
 
@@ -116,10 +118,4 @@ h3 {
 
 p {
   font-weight: 300;
-}
-
-.raisedButton {
-  margin: 12px;
-  color: #FFD54F;
-
 }
