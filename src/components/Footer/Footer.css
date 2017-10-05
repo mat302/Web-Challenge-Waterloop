@@ -1,12 +1,13 @@
 #footer-nav {
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
+  padding: 45px 10px 30px 10px;
   text-align: center;
-  margin-bottom: 20px;
   margin-top: 30px;
   width: 100%;
+  border-top: 1px #d5dbe0 solid;
 }
 
 #footer-nav a {
@@ -29,5 +30,8 @@
 }
 
 p {
+  padding-top: 10px;
+  color: #555555;
+  font-size: 70%;
   font-weight: 300;
 }

@@ -13,8 +13,8 @@ const Main = () => (
       {/*}<Route path='/flock' component={Flock}/>*/}
       <Route path='/team' component={Team}/>
       <Route path='/sponsors' component={Sponsors}/>
-      {/*}<Route path='/media' component={Media}/>*/}
       <Route path='/media' component={Media}/>
+      {/*}<Route path='/contact' component={Contact}/>*/}
       {}
     </Switch>
   </main>

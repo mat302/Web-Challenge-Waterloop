@@ -35,26 +35,37 @@ class Home extends Component {
         </div>
 
         <div className='homePaper'>
-<h3>Blog</h3>           <div className='blogs'>             <Paper
-className='PaperStyle blog' zDepth={1}>               <h4>Latest Post</h4>
-<h4>Short Description</h4>               <img src={Train}></img>
-<p>The Hyperloop is a proposed supersonic train line stretching across
-the country in underground airless tubes. We believe that it's the
-future of transportation, and an example of how sound engineering can
-overcome any problem.</p>             </Paper>             <Paper
-className='PaperStyle blog' zDepth={1}>               <h4>Latest Post</h4>
-<h4>Short Description</h4>               <img src={Montreal}></img>
-<p>The Hyperloop is a proposed supersonic train line stretching across
-the country in underground airless tubes. We believe that it's the
-future of transportation, and an example of how sound engineering can
-overcome any problem.</p>             </Paper>             <Paper
-className='PaperStyle blog' zDepth={1}>               <h4>Latest Post</h4>
-<h4>Short Description</h4>               <img src={Loop}></img>
-<p>The Hyperloop is a proposed supersonic train line stretching across
-the country in underground airless tubes. We believe that it's the
-future of transportation, and an example of how sound engineering can
-overcome any problem.</p>           </Paper>           </div>         </div>
-
+          <h3>Blog</h3>
+            <div className='blogs'>
+              <Paper className='PaperStyle blog' zDepth={1}>
+                <h4>Latest Post</h4>
+                <h4>Short Description</h4>
+                <img src={Train}></img>
+                <p>The Hyperloop is a proposed supersonic train line stretching across
+                the country in underground airless tubes. We believe that it's the
+                future of transportation, and an example of how sound engineering can
+                overcome any problem.</p>
+              </Paper>
+              <Paper className='PaperStyle blog' zDepth={1}>
+                 <h4>Latest Post</h4>
+                 <h4>Short Description</h4>
+                 <img src={Montreal}></img>
+                 <p>The Hyperloop is a proposed supersonic train line stretching across
+                   the country in underground airless tubes. We believe that it's the
+                   future of transportation, and an example of how sound engineering can
+                   overcome any problem.</p>
+              </Paper>
+              <Paper className='PaperStyle blog' zDepth={1}>
+                <h4>Latest Post</h4>
+                <h4>Short Description</h4>
+                <img src={Loop}></img>
+                <p>The Hyperloop is a proposed supersonic train line stretching across
+                the country in underground airless tubes. We believe that it's the
+                future of transportation, and an example of how sound engineering can
+                overcome any problem.</p>
+              </Paper>
+            </div>
+          </div>
       </div>
     );
   }

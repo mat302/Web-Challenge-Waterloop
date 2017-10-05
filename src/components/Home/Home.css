@@ -23,13 +23,13 @@
   z-index: -999;
 }
 
-.headerText {
+.home .headerText {
   margin: auto;
   max-width: 1040px;
   text-align: left;
 }
 
-.headerText h2 {
+.home .headerText h2 {
   margin-top: 20%;
   color: #fff;
   font-weight: 400;
@@ -58,35 +58,29 @@
   font-weight: 300;
 }
 
-h3
-{
+.home h3 {
   float: left;
-  font-size:30px;
+  padding-left: 30px;
+  font-size: 175%;
 }
 
-
-h4
-{
-  margin: 8%;
-  margin-left: 20%;
-  font-size: 30px;
+.home h4 {
+  font-size: 125%;
 }
 
-.blog
-{
+.home .blog {
   width: 30%;
   margin: 1%;
   display: inline-block;
   text-align: left;
+  padding: 15px;
 }
 
-.blog>img
-{
+.home .blog img {
   width: 100%;
 }
 
-.blogs
-{
+.home .blogs {
   margin-top: 10%;
   text-align: center;
 }
